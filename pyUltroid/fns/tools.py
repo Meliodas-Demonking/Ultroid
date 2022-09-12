@@ -16,7 +16,7 @@ from io import BytesIO
 from json.decoder import JSONDecodeError
 from traceback import format_exc
 
-from .. import *
+from .. import LOGS
 from ..exceptions import DependencyMissingError
 from .helper import bash, run_async
 
